@@ -1,0 +1,15 @@
+[package]
+name = "language_certification"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule  = "0x1a4c76a6dd7839fe692622e6e61d3d6c1b84d028c7ca931d247d1c3daffad909"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
